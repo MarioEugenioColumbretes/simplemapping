@@ -1,0 +1,64 @@
+<!-- 
+Mario Eugenio M. Columbretes
+BSIT-4F
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Mapping</title>
+</head>
+<body>
+    <style>
+.container{
+    margin-top: 20px;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    color: #49371f;
+    justify-content: center;
+}
+.location{
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.location iframe{
+  width: 100%;
+}
+
+header h1{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #33f11a;
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header h1::after{
+    content: '';
+    background: #33f11a;
+    width: 400px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+    </style>
+    <div class="container">
+    <header>
+        <H1> CAVITE CITY</H1>
+    </header>
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247322.64659371515!2d120.58124684953533!3d14.403146052594789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cd358110cca3%3A0x56e04bd8747014a4!2sCavite%20City%2C%20Cavite!5e0!3m2!1sen!2sph!4v1673533025317!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+</body>
+</html>
